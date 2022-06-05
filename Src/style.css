@@ -46,7 +46,3 @@ canvas {
   transform: translate(-50%, 0);               
 }
 
-canvas{
-  /* image-rendering: pixelated; */
-  image-rendering: pixelated;
-}
