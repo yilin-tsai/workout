@@ -4931,7 +4931,7 @@ function areaSelectDialog() {
 function tastyGuideDialog() {
   dialogShadow();
 
-  let x = middleX - 370;
+  let x = middleX + 370;
 
   dialogCtx.fillStyle = "#fff";
   dialogCtx.beginPath();
