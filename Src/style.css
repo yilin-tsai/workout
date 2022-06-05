@@ -23,7 +23,7 @@ body {
 
 @font-face {
   font-family: "NotoSansTC-Light";
-  src: url("../Src/Fonts/NotoSansTC-Light.otf") format("opentype");
+  src: url("./Src/Fonts/NotoSansTC-Light.otf") format("opentype");
 }
 
 canvas {
