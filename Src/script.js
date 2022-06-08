@@ -3799,7 +3799,7 @@ function updateExercise(timestamp) {
     );
 
     mainCtx.fillStyle = "#E4E8EA";
-    mainCtx.fillRect((mainCanvas.width * 0.6) / 2 - 90, middleY - 75, 180, 90);
+    mainCtx.fillRect((mainCanvas.width * 0.6) / 2 - 200, middleY - 75, 400, 90);
 
     mainCtx.drawImage(
       exercisParameter.pics[animattionIndex],
@@ -4407,7 +4407,7 @@ function showContentDialog() {
   roundRect(dialogCtx, box3PosX, boxPosY, 350, 510, 10);
 
   dialogCtx.drawImage(images["W02"], box1PosX + 30, boxPosY + 40);
-  dialogCtx.drawImage(images["W03"], box2PosX + 20, boxPosY + 40);
+  dialogCtx.drawImage(images["W03"], box2PosX + 10, boxPosY + 40);
   dialogCtx.drawImage(images["W04"], box3PosX + 30, boxPosY + 40);
 
   dialogCtx.fillStyle = "#555555";
@@ -4419,109 +4419,109 @@ function showContentDialog() {
 
   dialogCtx.font = "18px NotoSansTC-Light";
   dialogCtx.textAlign = "left";
-  let textYbase = 310;
+  let textYbase = 305;
   let textHeight = 20;
 
   dialogCtx.fillText(
     "腕隧道症候群是一種常見的疾病，會導",
-    box1PosX + 15,
+    box1PosX + 20,
     boxPosY + textYbase
   );
   dialogCtx.fillText(
     "致手和手臂疼痛、麻木和刺痛。",
-    box1PosX + 15,
+    box1PosX + 20,
     boxPosY + textYbase + textHeight
   );
   dialogCtx.fillText(
     "當手的主要神經之一-正中神經-受到擠",
-    box1PosX + 15,
+    box1PosX + 20,
     boxPosY + textYbase + textHeight * 3
   );
   dialogCtx.fillText(
     "壓或壓縮時，就會出現這種情況。",
-    box1PosX + 15,
+    box1PosX + 20,
     boxPosY + textYbase + textHeight * 4
   );
   dialogCtx.fillText(
     "症狀通常可以通過簡單的措施得到緩",
-    box1PosX + 15,
+    box1PosX + 20,
     boxPosY + textYbase + textHeight * 6
   );
   dialogCtx.fillText(
     "解和預防。",
-    box1PosX + 15,
+    box1PosX + 20,
     boxPosY + textYbase + textHeight * 7
   );
 
   dialogCtx.fillText(
     "肌筋膜頸部疼痛是頸肩部慢性疼痛的常",
-    box2PosX + 15,
+    box2PosX + 20,
     boxPosY + textYbase
   );
   dialogCtx.fillText(
     "見原因。",
-    box2PosX + 15,
+    box2PosX + 20,
     boxPosY + textYbase + textHeight
   );
   dialogCtx.fillText(
     "頸部肌肉的過度使用或創傷，以及壓力",
-    box2PosX + 15,
+    box2PosX + 20,
     boxPosY + textYbase + textHeight * 3
   );
   dialogCtx.fillText(
     "和姿勢，都可能導致頸部/肩部的肌筋",
-    box2PosX + 15,
+    box2PosX + 20,
     boxPosY + textYbase + textHeight * 4
   );
   dialogCtx.fillText(
     "膜疼痛。",
-    box2PosX + 15,
+    box2PosX + 20,
     boxPosY + textYbase + textHeight * 5
   );
   dialogCtx.fillText(
     "對於整天在辦公桌前工作並且在使用計",
-    box2PosX + 15,
+    box2PosX + 20,
     boxPosY + textYbase + textHeight * 7
   );
   dialogCtx.fillText(
     "算機時操作不當的患者。肌肉可能因過",
-    box2PosX + 15,
+    box2PosX + 20,
     boxPosY + textYbase + textHeight * 8
   );
   dialogCtx.fillText(
     "度使用或受傷而變得緊繃或發炎。",
-    box2PosX + 15,
+    box2PosX + 20,
     boxPosY + textYbase + textHeight * 9
   );
 
   dialogCtx.fillText(
     "網球肘是一種導致肘部外側疼痛的疾病。",
-    box3PosX + 15,
+    box3PosX + 20,
     boxPosY + textYbase
   );
   dialogCtx.fillText(
     "它經常發生在肘關節附近的前臂肌肉過",
-    box3PosX + 15,
+    box3PosX + 20,
     boxPosY + textYbase + textHeight * 2
   );
   dialogCtx.fillText(
     "度使用或重複動作之後。",
-    box3PosX + 15,
+    box3PosX + 20,
     boxPosY + textYbase + textHeight * 3
   );
   dialogCtx.fillText(
     "可能會注意到肘部外側疼痛，您可能還",
-    box3PosX + 15,
+    box3PosX + 20,
     boxPosY + textYbase + textHeight * 4
   );
   dialogCtx.fillText(
     "會發現難以完全伸展手臂。",
-    box3PosX + 15,
+    box3PosX + 20,
     boxPosY + textYbase + textHeight * 5
   );
   dialogCtx.fillText(
     "網球肘不治療會好起來的。",
-    box3PosX + 15,
+    box3PosX + 20,
     boxPosY + textYbase + textHeight * 7
   );
 
@@ -4999,7 +4999,7 @@ function finishExerciseDialog() {
     baseY
   );
   dialogCtx.fillText("恭喜獲得", middleX - 47, baseY + step);
-  dialogCtx.drawImage(images["W05"], middleX + 40, baseY + step - 50);
+  dialogCtx.drawImage(images["W05"], middleX + 30, baseY + step - 35, 60, 60);
 
   dialogCtx.fillStyle = "#FFAFAF";
   dialogCtx.fillText(
